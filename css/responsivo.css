@@ -1,0 +1,26 @@
+@media screen and (min-width: 0){
+    .tabuleiro .adicionar-palavra{
+        display: flex;
+        flex-direction: column;
+    } 
+    .btn-novo-jogo,.btn-desistir {
+    margin-left: 3rem;
+    }
+    .tabuleiro .invisivel{
+        background: none;
+    }
+    .btn-salvar{
+        margin-left: 3rem;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (min-width: 768px){
+ 
+
+}
+@media screen and (min-width: 992px){
+  
+}
+@media screen and (min-width: 1200px){
+   
+}

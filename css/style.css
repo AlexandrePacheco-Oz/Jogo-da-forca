@@ -1,0 +1,137 @@
+/*Fonte, background e "invisível"*/
+html {
+    font-family: 'PT Sans', sans-serif;
+   height: 100%;
+   text-align: center;
+   background:#E5E5E5; ;
+  
+}
+.invisivel {
+    display: none;
+}
+/*Header*/
+header h1{
+    text-align: center;
+}
+header {
+    margin: 2.5rem;
+    display: flex;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0a3871;
+}
+header:hover {
+    transition: 0.5s;
+    opacity: 50%;
+}
+/*Configurações Botões*/
+.botoes-iniciar {
+    margin: 10rem auto;
+}
+.btn-iniciar, .btn-adicionar {
+    display: block;
+    width: 18rem;
+    height: 5rem;
+    margin: 1rem auto;
+    border-radius: 30px;
+    border-color: #0a3871;
+    border-width: 1px;
+    font-size: 22px;
+}
+.btn-iniciar, .btn-novo-jogo, .btn-salvar {
+    background-color: #0a3871;
+    color: #f3f5fc;
+}
+.btn-iniciar:hover, .btn-novo-jogo:hover, .btn-salvar:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: #f3f5fc;
+    color: #0a3871;
+}
+.btn-adicionar, .btn-desistir, .btn-voltar {
+    background-color: #f3f5fc;
+    color: #0a3871;
+}
+.btn-adicionar:hover, .btn-desistir:hover, .btn-voltar:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: #0a3871;
+    color: #f3f5fc;
+}
+button {
+    box-shadow: 3px 5px 10px #495057;
+}
+/*Tabuleiro*/
+.tabuleiro {
+    text-align: center;
+}
+canvas {
+    background-color: transparent;
+    border: none;
+}
+.letras-teclado, .ativar-teclado, .desativar-teclado {
+    margin: 1rem 0.5rem;
+    height: 4rem;
+    font-size: 22px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #0a3871;
+    box-shadow: 3px 3px 5px #0a3871;
+    background-color: #f3f5fc;
+    color: #0a3871;
+}
+.ativar-teclado, .desativar-teclado {
+    width: 7rem;
+    
+}
+.add-palavra{
+    border-radius: 5px;
+    width: 25rem;
+    height: 5rem;
+    font-size: 20px;
+    text-align: center;
+}
+.letras-teclado {
+    width: 4rem;
+}
+.letras-teclado:hover, .ativar-teclado:hover, .desativar-teclado:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: #0a3871;
+    color: #f3f5fc;
+}
+.letras-teclado:active, .ativar-teclado:active, .desativar-teclado:active {
+    opacity: 75%;
+}
+.clicadas {
+    background-color: #0a3871;
+    color: #f3f5fc;
+    opacity: 85%;
+    pointer-events: none;
+}
+.entrada {
+    display: inline;
+    width: 0;
+    height: 0;
+    border: none;
+    outline: none;
+}
+.btn-novo-jogo, .btn-desistir {
+    margin-top: 2rem;
+}
+.btn-novo-jogo, .btn-desistir, .btn-salvar, .btn-voltar {
+    display: inline;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 30px;
+    border-color: #0a3871;
+    border-width: 1px;
+    font-size: 22px;
+}
+.btn-novo-jogo, .btn-salvar {
+    margin-right: 1.5rem;
+}
